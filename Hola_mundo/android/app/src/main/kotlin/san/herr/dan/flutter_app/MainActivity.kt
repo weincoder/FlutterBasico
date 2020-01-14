@@ -6,9 +6,9 @@ import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugins.GeneratedPluginRegistrant
 
 class MainActivity: FlutterActivity() {
-    @TargetApi (Build.VERSION_CODES.LOLLIPOP)
+
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
         GeneratedPluginRegistrant.registerWith(flutterEngine);
-        this.getWindow().setStatusBarColor(android.graphics.Color.TRANSPARENT);
+
     }
 }

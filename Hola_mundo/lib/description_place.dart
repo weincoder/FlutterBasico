@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/button_purple.dart';
 /*
 
  */
@@ -100,14 +101,22 @@ class DescriptionPlace extends StatelessWidget{
     );
 
     final contenido_completo = Column (
+
       children: <Widget>[
         title_stars,
-        description
+        description,
+
       ],
 
     );
 
-    return contenido_completo;
+    return Column (
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        contenido_completo,
+        ButtonPurple ("Continuar!")
+      ],
+    );
 
 
   }

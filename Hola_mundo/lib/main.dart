@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/header_appbar.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
 
+import 'platzi_trips.dart';
 String descriptionDummy ='Estamos aprendiendo flutter tiene una sintaxis,'
     ' interesante, nos recuerda a angular '
     'pues toma los cambios en tiempo de ejecución '
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Hola mundo en flutter'),
+      home: PlatziTrips(),
     );
   }
 }
@@ -92,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
           ),
-          GradientBack("Flutter!!")
+          HeaderAppBar ()
         ],
       ) ,
         // Center is a layout widget. It takes a single child and positions it

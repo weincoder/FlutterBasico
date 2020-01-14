@@ -72,9 +72,14 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
     - assets/img/ISOTIPO.png
-    - assets/img/forest.png
-    - assets/img/circles.png
+    - assets/img/forest.jpg
+    - assets/img/circles.jpg
     - assets/img/sky.png
+    - assets/img/mafer.png
+    - assets/img/nano.jpg
+    - assets/img/gio.jpg
+    - assets/img/Daniel.jpeg
+
 
   fonts:
     - family: Lato
